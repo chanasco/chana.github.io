@@ -1,0 +1,61 @@
+body{
+    background: rgb(133, 132, 132);
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("focus.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    color: aliceblue;
+}
+.row{
+    width: 100%;
+}
+
+.timer{
+    color: aliceblue;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid aliceblue;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.fa-play, .fa-redo-alt, .fa-coffee{
+    color: burlywood;
+    border: 2px solid transparent;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.fa-play:hover, .fa-redo-alt:hover, .fa-coffee:hover{
+    color: rgb(111, 63, 0);
+    border: 2px solid blanchedalmond;
+    transition:0.3s ease ;
+}
+
+.show_message{
+    display: block;
+    padding: 1rem 0;
+    color: black;
+    background: blanchedalmond;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+}
+
+.fa-sign-out-alt{
+    color:gray;
+    border: 0rem solid transparent;
+    padding: 1rem;
+    border-radius: 1rem; 
+}
+.fa-sign-out-alt:hover{
+    color: black;
+    border: 2px solid blanchedalmond;
+    transition:0.3s ease ;
+}
+.log{
+    float: right;
+}
+
