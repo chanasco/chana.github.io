@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="formscss.css">
+  
+    <script defer src="formss.js"></script>
+</head>
+<body>
+    <h4>Pomodoro</h4>
+    
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form"  action="/index.html" method="GET">
+                <input type="text" id="Username" placeholder="Username" required/><br>
+                <input type="password" id="Password" placeholder="Password" required/><br>
+                <input type="email" id="Email" placeholder="Email" required/><br>
+                <button type="submit">Create Account</button>
+                <p class="message">Already Registered? <a href="#">Login</a></p>
+                </form>
+
+                <form class="login-form" action="/index.html" method="GET" >
+                    <input type="text" id="username" placeholder="Username" required/><br>
+                    <input type="password" id="password" placeholder="Password" required/><br>
+                    <button type="submit">Login</button>
+                    <p class="message">Not Registered <a href="#">Register</a></p>
+                </form>
+             
+
+        </div> 
+    </div>
+    <div class="ft">
+<footer class="footer">
+    <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+    <ul class="list">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Terms</a>
+        </li> <li>
+            <a href="#">Privacy policy</a>
+        </li>
+    </ul>
+</footer>
+</div>
+
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+     <script>
+$('.message a ').click(function(){
+$('form').animate({height: "toggle", opacity:"toggle"}, "slow");
+});
+     </script>
+</body>
+</html>
